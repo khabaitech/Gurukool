@@ -1,0 +1,332 @@
+
+    	.bgcol{
+    		background-color:#7A8FF7;
+    	}
+    	li{
+    		list-style-type: none;
+    	}
+    	.abtn{
+
+    		 border-radius: 16px;
+    		 background-color:#100cff;
+    		 color:white;
+  border: none;
+  
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+    	}
+    	.marTop{
+    		margin-top: 10px;
+    	}
+    	.txtcolw{
+    		color: white;
+    	}
+    	.welGuru{
+    		color: white;
+    		margin-top: -150px;
+    		font-family: roboto;
+    	}
+    	.sts{
+    	height: 150px; width: 150px; border-radius: 50%; 
+    	border: #100cff solid 10px;
+    	z-index: 1;
+        position: absolute; 
+        top: -60px;
+    	
+    	}
+    	.teach{
+    		background: #29BCC1;
+    	}
+    	.std{
+    		background-color: #EB9310;
+    	}
+    	.sub{
+    		color:#100cff;
+    		font-family: cambria; 
+    	}
+    	
+    	.imgstd{
+    		height:80px;
+    	}
+    	
+    	.tea{
+    		color: #EB9310;
+    	}
+    	.top{
+    		margin-top:350px;
+    	}
+    	.sele{
+    		background-color: white; border: none;
+        	}
+
+    	.bord{
+    		border-right: 2px solid blue; height: 68px; 
+    	}
+    	.searcharea
+    	{
+    		height: 70px; width: 100%; background-color: white; border-radius: 16px; border: blue solid 2px;
+
+    	}
+    	
+    	.vt{
+    		font-family: roboto;
+    		color:#100cff;
+    	}
+    	.tv{
+    		font-family: roboto;
+    		color: black;
+    	}
+    	.seabtn{
+    		height:68px; width: 100%; font-size:150%; line-height:150%;background-color:blue;
+    	}
+    	.secbtn{
+    		height:72px; width:100%; margin-top:-5px; background-color:blue;border-radius: 16px;
+    	}
+    	.aboutmain{
+    		background:#BAC2E4 ; height:auto;
+    	}
+    	.aboutsec{
+    		border-left: grey 2px solid; height: 285px;
+    	}
+    	.aboutimg{
+    		height:250px;
+    	}
+    	.footermain{
+    		width: 100%; height: 70px; background-color: #7A8FF7;
+    	}
+    	.footerimg{
+    		height:50px; margin-top:15px;
+    	}
+    	.tu{
+    		position: absolute;
+    		top: 18px;
+    	}
+    	.next{
+    		color: grey;
+    	}
+
+    	@media only screen and (min-width:768px ) and (max-width:976px)
+    	{
+    		.aboutsec{
+    		border-left:none; height:2px;
+    	}
+    	.footerimg{
+    		height:20px; margin-top:15px;
+    		margin-left: 0px;
+    	}
+
+    	}
+    	@media only screen and (min-width:280px ) and (max-width: 768px)
+    	{
+
+
+    	.sts{
+    	height:90px; width:90px; border-radius: 50%; z-index: 3;
+    	border: #100cff solid 5px;
+    	margin-left: 25px;
+    	
+    	}
+    	
+    	.imgstd{
+    		height:50px;
+    	}
+    	.fon{
+    		font-family: cambria;
+    		font-size: 18px;
+    		margin-top: -28px;
+    	}
+    	
+    	.seardiv{
+    		margin-top: 150px;
+    		height:400px;
+    		background-color: #7A8FF7;
+
+    	}
+    	.seabtn{
+    		height:70px; width: 100%; font-size:120%; line-height:130%;
+    	}
+    	.secbtn{
+    		height:72px; width:100%; margin-top:-5px; background: #7A8FF7;
+    	}
+
+    	.aboutmain{
+    		background:#BAC2E4 ; height:auto;
+    	}
+    	
+    	.aboutimg{
+    		height:215px;
+    	}
+    	.aboutsec{
+    		border-left:none; height:2px;
+    	}
+    	.footerimg{
+    		height:20px; margin-top:15px;
+    		margin-left: 0px;
+    	}
+    	.sele{
+    		border: blue solid 2px;
+    	}
+    	.searcharea
+    	{
+    		height:0px; width: 100%;  
+    		border: none;
+    	}
+    	.bord{
+    		border-right: none;  
+    	}
+    	
+
+    	}
+
+
+    	@media (min-width: 768px) and (max-width: 991px) {
+    /* Show 4th slide on md if col-md-4*/
+    .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.3333%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+
+
+    /* Show 3rd slide on sm if col-sm-6*/
+    .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -50%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+}
+@media (min-width: 576px) {
+
+
+    .carousel-item {
+        margin-right: 0;
+    }
+    /* show 2 items */
+    .carousel-inner .active + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* farthest right hidden item must be also positioned for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+    .sts{
+        height: 150px; width: 150px; border-radius: 50%; z-index: 3;
+        border: #100cff solid 10px;    
+    }
+    .imghe{
+        height: 80px;
+    }
+    .col-1{
+        margin-left: 10%;
+    }
+    .seardiv{
+            height: 200px; width: 100%; background-color:  #BAC2E4; margin-top: 22%;
+    }
+}
+/* MD */
+@media (min-width: 768px) {
+    /* show 3rd of 3 item slide */
+    .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+}
+/* LG */
+@media (min-width: 991px) {
+    /* show 4th item */
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    /* Show 5th slide on lg if col-lg-3 */
+    .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction //t - previous slide direction last item animation fix */
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+
+
+    
