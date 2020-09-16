@@ -328,5 +328,113 @@
     }
 }
 
+/*our course */
+
+		.section-ptb {
+    padding: 50px 0;
+}
+.section-title-three {
+    text-align: center;
+    position: relative;
+}
+.section-title-three h4 {
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.section-title-three h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    font-size: 44px;
+}
+.section-title-three p {
+    font-size: 16px;
+    margin-top: 13px;
+}
+.course-categories-wrap {
+    margin-left: -9px;
+    margin-right: -9px;
+    margin-top: 50px;
+}
+.coustom-col-2 {
+    min-width: 15%;
+    margin: 0 9px;
+    float: left;
+}
+.single-course-categories {
+    margin-top: 20px;
+    padding: 15px;
+    height: 180px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.single-course-categories:hover .cours-icon {
+  transform: scale(1.2);
+}
+.malachite {
+    background: #10c45c;
+}
+.single-course-categories .cours-icon {
+    /* -webkit-transition: 0.4s; */
+    transition: 0.4s;
+}
+.single-course-categories .cours-title {
+    margin-top: 15px;
+}
+.single-course-categories-two:hover .cours-icon {
+  transform: scale(1.2);
+}
+.sunglow {
+    background: #fdc735;
+}
+.mariner {
+    background: #307ad5;
+}
+.brilliantrose {
+    background: #e948ae;
+}
+.shakespeare {
+    background: #48a7d4;
+}
+.deyork {
+    background: #6fc191;
+}
+.all-course-btn {
+    text-align: center;
+}
+.all-course-btn .all-course {
+    margin-top: 70px;
+    padding: 13px 13px;
+    background: #47ADEB;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px rgba(255, 89, 81, 0.4);
+}
+.all-course-btn .all-course:hover {
+  color: #ffffff;
+  background: #222222;
+}
+a, button, img, input, span {
+    transition: all 0.3s ease 0s;
+}
+a, button {
+    /*color: inherit;*/
+    display: inline-block;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
     
